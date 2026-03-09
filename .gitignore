@@ -2,4 +2,4 @@
 *.xlsx
 venv/
 .env
-/scripts/.env
+scripts/.env
