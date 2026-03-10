@@ -22,6 +22,12 @@ def apply_ai_remap():
     # Load the schedule
     df = pd.read_excel(xlsx_file)
     
+    # Ensure Conteúdo column exists and is object type (string) to avoid float assignment errors
+    if "Conteúdo" not in df.columns:
+        df["Conteúdo"] = ""
+    else:
+        df["Conteúdo"] = df["Conteúdo"].astype(object)
+    
     updated_count = 0
     
     for idx, row in df.iterrows():
