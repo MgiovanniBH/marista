@@ -16,6 +16,7 @@ Esta automação pode ser executada via comandos no chat:
 - `/resumir-planejamento`: A IA resume o planejamento e gera o mapa de distribuição.
 - `/preencher-planilha`: Grava os resumos da IA na planilha Excel.
 - `/atualizar-portal`: Envia as informações da planilha para o portal Marista.
+- `/limpar-lancamentos`: Remove o conteúdo programático gravado no portal Marista.
 
 ## Configuração de Credenciais
 Configure o arquivo `scripts/.env` (não versionado):

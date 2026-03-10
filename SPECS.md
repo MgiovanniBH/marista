@@ -27,8 +27,8 @@
 ## Technical Details
 - **Target URL**: `https://academico.maristabrasil.org/DOnline/DOnline/avisos/TDOL303D.tp`
 - **Authentication**: Form-based (Matrícula/CPF/E-mail and Password).
-- **Selectors Reference**: [selectors.md](file:///c:/Repo/Teste%20Agente/references/selectors.md)
-- **Core Script**: [consult.py](file:///c:/Repo/Teste%20Agente/scripts/consult.py)
+- **Selectors Reference**: [selectors.md](file:///c:/Repo/Marista/references/selectors.md)
+- **Core Script**: [consult.py](file:///c:/Repo/Marista/scripts/consult.py)
 
 ## Deployment (Skill Pattern)
 - The project is structured to be moved to the global `skills/` directory once verified.
